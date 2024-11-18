@@ -2,7 +2,7 @@ import pygame
 import os 
 from mutagen.mp3 import MP3
 from collections import deque
-
+#hello
 with open('songs.txt', mode='r') as f:
    l = [ e.replace('\n', '') for e in f.readlines() if e != '\n' ]
 
